@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemniscate Solutions SAS</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 style="text-align: center;">Lemniscate Solutions SAS</h1>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li>
+                    <a href="#">Acerca de</a>
+                    <ul class="submenu">
+                        <li><a href="#">Misión</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Valores corporativos</a></li>
+                    </ul>
+                </li>        
+                <li>
+                    <a href="#">Servicios</a>
+                    <ul class="submenu">
+                        <li><a href="#">Formación en Salud</a></li>
+                        <li><a href="#">Gestión Tecnológica</a></li>
+                        <li><a href="#">Gestión del Riesgo</a></li>
+                        <li><a href="#">Gestión del Talento Humano</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Módulo de Cursos</a>
+
+                </li>
+                <li>
+                    <a href="#">Validación de Certificaciones</a>
+
+                </li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img class="image" src="./images/FONDO.jpg" width= "1065px" alt="Fondo.Png" title="Fondo"/><br><br>
+    <div>
+        <section>
+            <h1 style="text-align:center;"> Registro de participantes</h1>
+            <form class="formulario" onsubmit="return validarFormulario()">
+                <label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label>Telefono:</label>
+                <input type="number" id="telefono" name="telefono">
+                <label>Correo:</label>
+                <input type="email" id="email" name="email">
+                <label>Direccion:</label>
+                <input type="text" id="direccion" name="direccion">
+                <label>Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena">
+                <label>Cargar imagen:</label>
+                <input type="file" id="imagen" name="imagen" onchange="mostrarImagen(event)">
+                <img id="ver-imagen" class="ver-imagen">
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+    </div>
+    <script src="./Scripts/leccion17.js"></script>
+    <footer>
+        <div class="footer-container">
+            <!-- Sección 1: Información general -->
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Empresa dedicada a la formación en Salod, Gestión Tecnológica, Gestión del Riesgo y Gestión del Talento Humano.</p>
+            </div>
+   
+            <!-- Sección 2: Enlaces útiles -->
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#">Volver al inicio</a></li>
+                    
+                </ul>
+            </div>
+   
+            <!-- Sección 3: Redes sociales -->
+            <div class="footer-section">
+                <h3>Síguenos en </h3>
+                <div class="social-icons">
+                    <a href="#">Facebook<i class="fab fa-facebook"></i></a>
+                    <a href="#">X antes Twitter<i class="fab fa-twitter"></i></a>
+                    <a href="#">Instagram<i class="fab fa-instagram"></i></a>
+                    <a href="#">Linkedin<i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+   
+        <div class="footer-bottom">
+            © 2025 Lemniscate Solutions SAS - Todos los derechos reservados.
+        </div>
+    </footer>
+  </body>
+</html>
