@@ -1,0 +1,181 @@
+.formulario{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    background-color: #a6b4c1;
+}
+.formulario input, .formulario button{
+    width: 95%;
+    padding: 10px;
+    margin: 0px;
+}
+.ver-imagen{
+    width: 120px;
+    height: 120;
+    border-radius: 10%;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+}
+header{
+    background-color: #ffb403;
+    padding: 1px 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   
+}
+nav ul li{
+    display: inline-block;
+    /* margin-right: 20px; */
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+/* Estilos del submenú */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffb403;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.submenu li {
+    border-bottom: 1px solid #777;
+}
+
+.submenu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background-color: #ffb403;
+}
+
+label{
+    color: #262525;
+}
+
+.required::after {
+    content: " *";  /* Agrega el asterisco */
+    color: rgb(31, 27, 27);      /* Color rojo para indicar obligatoriedad */
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffb403;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Contenedor principal con distribución horizontal */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en línea */
+    align-items: center; /* Alineación vertical */
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Para que sea responsive */
+}
+
+/* Secciones del footer */
+.footer-section {
+    flex: 1;
+    text-align: center; /* Alineación centrada */
+}
+
+/* Títulos de las secciones */
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para los enlaces */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre enlaces */
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #69a7e2;
+}
+
+/* Redes sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #69a7e2;
+}
+
+/* Línea inferior */
+.footer-bottom {
+    margin-top: 15px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.ver-imagen{
+    object-fit: fill;
+}
+
+.image{
+    object-fit: fill;
+}
+
+img{
+    width: "1065px"
+    /*object-fit: fill;*/
+}
