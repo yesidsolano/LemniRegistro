@@ -167,15 +167,3 @@ footer {
     text-align: center;
 }
 
-.ver-imagen{
-    object-fit: fill;
-}
-
-.image{
-    object-fit: fill;
-}
-
-img{
-    width: "1065px"
-    /*object-fit: fill;*/
-}
